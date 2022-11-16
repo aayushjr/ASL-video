@@ -1,0 +1,12 @@
+This will be the location of UCF-101-24 dataset as downloaded from the main source. This will be structured as:
+-UCF101_Videos
+ |
+ |-ClassName1
+    |-Class1_video1
+        |-Class1_video1.avi
+    |-...
+    |-Class1_videoN    
+ |-ClassName2
+ |- ...
+ |-ClassName24 
+

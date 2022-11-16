@@ -1,0 +1,2 @@
+Place the Charades pretrained weights from https://github.com/piergiaj/pytorch-i3d/blob/master/models/rgb_charades.pt in this location. 
+This is used for the I3D encoder in the model.
