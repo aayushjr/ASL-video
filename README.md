@@ -2,7 +2,7 @@
 
 Video action detection requires annotations at every frame, which drastically increases the labeling cost. In this work, we focus on efficient labeling of videos for
 action detection to minimize this cost. We propose active sparse labeling (ASL), a novel active learning strategy for video action detection.   
-Visit the project page for more details in [the CRCV website](https://www.crcv.ucf.edu/research/projects/active-sparse-labeling-for-video-action-detection/).
+Visit the project page [HERE](https://sites.google.com/view/activesparselabeling/home) for more details.
 
 ## Description
 
