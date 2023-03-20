@@ -284,7 +284,7 @@ if __name__ == '__main__':
                 selected_frame.append(sorted_idx[-1])             # Pick frame with highest score 
                 vid_scores_annotated[sorted_idx[-1]] = -1000.     # Change score of selected frame 
                 # Change score of nearby frames 
-                range_low, range_high = max(sorted_idx[0]-4,0), min(sorted_idx[0]+5, num_frames)
+                range_low, range_high = max(sorted_idx[-1]-4,0), min(sorted_idx[-1]+5, num_frames)
                 range_center = sorted_idx[-1]
                 vid_scores_annotated[range_low:range_high] += dist_norm_mask[4-(range_center-range_low):4+(range_high-range_center)]
        
